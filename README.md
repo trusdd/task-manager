@@ -48,3 +48,9 @@ cd task-manager
 
 # 2. Build and run with Maven
 ./mvnw spring-boot:run   # On Windows: mvnw.cmd spring-boot:run
+
+The API will be available at http://localhost:8080.
+
+Default H2 Console
+Access the in-memory database console at http://localhost:8080/h2-console (JDBC URL: jdbc:h2:mem:taskdb).
+
